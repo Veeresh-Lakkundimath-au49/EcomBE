@@ -4,13 +4,13 @@ let {home,detail,searchedItem,signup,detailInfo,login,price,googlelogin,logout}=
 
 
 //setting up CORS to avoid error
-//const cors=require('cors')
-//app.use(cors())
+const cors=require('cors')
+app.use(cors())
 
-// app.use(cors({
-//     origin: 'http://localhost:3000',
-//     credentials: true
-//   }));
+app.use(cors({
+    origin: 'https://preeminent-gelato-c05b21.netlify.app',
+    credentials: true
+  }));
 
 let jwt = require('jsonwebtoken')
 
