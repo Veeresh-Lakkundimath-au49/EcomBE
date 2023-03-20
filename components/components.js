@@ -11,6 +11,8 @@ async function prodColl(){
      prodList=await initDB()
 }
 
+prodColl()
+
 // getting list collection
 let goods;
 async function listColl(){
