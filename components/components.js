@@ -18,10 +18,10 @@ async function listColl(){
 }
 listColl()
 
-async function x(){
- await prodColl()
-}
-x()
+// async function x(){
+//  await prodColl()
+// }
+// x()
 
 // getting profile collection
 let profile;
